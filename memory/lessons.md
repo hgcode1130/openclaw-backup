@@ -9,3 +9,4 @@
 - [S3|复盘证据最小集] 低会话量场景仍需至少核对 `memory/projects.md`、`memory/lessons.md` 与今昨日日志后再下结论，避免仅凭单条会话做过度推断。
 - [S3|Cron-only 日判定] 若当日主要活动来自定时任务（如 daily-reflection），需额外用 `sessions_list` 交叉确认是否存在遗漏业务会话；确认无后再在简报中明确“无新增业务会话结论”。
 - [S3|日志文件先行] 若 `memory/YYYY-MM-DD.md` 不存在，先创建当日日志文件再写复盘结论，避免结论仅停留在会话输出、未沉淀到记忆层。
+- [S2|Reflection 备份白名单收窄] 现行 daily-reflection 使用 `git add memory` 会把 `memory/_state/`、`heartbeat-state.json` 与 archive 重命名一并纳入提交，造成高噪音备份；后续应改为更细粒度白名单，只提交人工维护记忆文件。

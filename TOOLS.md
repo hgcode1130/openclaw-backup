@@ -78,3 +78,8 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 至少同时核对：`memory/projects.md`、`memory/lessons.md`、`memory/今天.md`、`memory/昨天.md`。
 - 若当日会话很少，额外以 `sessions_list` 确认“是否存在遗漏会话”。
 - 输出问题项时必须给“现象-影响-改法”三段证据链，避免泛化结论。
+
+### Daily Reflection 备份白名单观察（新增）
+
+- 当前 skill 若直接执行 `git add memory`，会把 `memory/_state/`、`heartbeat-state.json`、archive 重命名等非人工记忆文件一并纳入提交。
+- 现阶段先如实记录并允许备份完成；后续若继续优化 skill，应改成更细粒度白名单，降低提交噪音、提升复盘仓库可读性。
