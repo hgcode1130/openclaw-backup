@@ -79,3 +79,4 @@ Skills provide your tools. When you need one, check its SKILL.md.
 默认用 medium，性价比最高。
 只有真正需要深度思考的任务才上 complex。
 纯机械操作用 simple。
+
