@@ -1,0 +1,21 @@
+# 默认忽略全部
+*
+
+# 允许把 .gitignore 本身纳入版本控制
+!.gitignore
+
+# 放行目录本身（用于递归白名单）
+!workspace/
+!workspace/memory/
+
+# 放行 reflection 核心文件
+!workspace/memory/**
+!workspace/MEMORY.md
+!workspace/AGENTS.md
+!workspace/TOOLS.md
+!workspace/USER.md
+
+# 常见噪音
+*.log
+*.tmp
+.DS_Store
