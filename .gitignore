@@ -1,0 +1,21 @@
+# 默认忽略全部
+*
+
+# 允许把 .gitignore 本身纳入版本控制
+!.gitignore
+
+# 放行 reflection 核心文件
+!memory/
+!memory/**
+!MEMORY.md
+!AGENTS.md
+!TOOLS.md
+!USER.md
+!skills/
+!skills/daily-reflection/
+!skills/daily-reflection/SKILL.md
+
+# 常见噪音
+*.log
+*.tmp
+.DS_Store
