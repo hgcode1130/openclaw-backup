@@ -10,3 +10,4 @@
 - [S3|Cron-only 日判定] 若当日主要活动来自定时任务（如 daily-reflection），需额外用 `sessions_list` 交叉确认是否存在遗漏业务会话；确认无后再在简报中明确“无新增业务会话结论”。
 - [S3|日志文件先行] 若 `memory/YYYY-MM-DD.md` 不存在，先创建当日日志文件再写复盘结论，避免结论仅停留在会话输出、未沉淀到记忆层。
 - [S2|Reflection 备份白名单收窄] 现行 daily-reflection 使用 `git add memory` 会把 `memory/_state/`、`heartbeat-state.json` 与 archive 重命名一并纳入提交，造成高噪音备份；后续应改为更细粒度白名单，只提交人工维护记忆文件。
+- [S2|Linux Browser 故障定位] OpenClaw 在 Linux 上遇到 browser tool 超时时，不要只看“browser control service unreachable”字面；应先区分 18791 控制服务、CDP 18800 与实际 Chromium 启动链。若系统 Chromium 来自 snap，优先参考 `docs/tools/browser-linux-troubleshooting.md`，重点排查 attach-only + 独立 CDP 服务 + profile lock（SingletonLock/Socket）冲突。
