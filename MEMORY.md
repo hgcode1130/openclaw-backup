@@ -24,7 +24,7 @@
 - MLLM 每日论文速览默认发送频道：Discord `1479351623871631361`（#paper-daily）
 
 ## 常见故障与修复策略
-- Daily Reflection 备份路径若为 `/root/.openclaw` 且不可达（Permission denied）：
+- Daily Reflection 备份根路径统一为 `/home/re0hg/.openclaw/workspace`；若该路径 Git 检查失败：
   - 立即停止 Git 写操作；
   - 标记“备份失败但继续复盘”；
   - 转入只读复盘，保证流程连续性。
@@ -35,8 +35,8 @@
 
 ## 项目状态（周级快照）
 - OpenClaw 运维：
-  - Daily Reflection 已切换到 `/home/re0hg/.openclaw` 的 reflection-only Git 策略并验证可用；
-  - 当前仍存在 `git add memory` 白名单过宽导致噪音提交的问题（`memory/_state/`、`heartbeat-state.json`、archive 重命名）。
+  - Daily Reflection 已按 `/home/re0hg/.openclaw/workspace` 作为统一 Git 根并验证 commit/push 可用；
+  - 当前仍存在 `git add memory` 白名单过宽导致噪音提交的问题（`memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、archive 重命名）。
 - 多图 Unified Model 可控性研究：
   - 已建立机器可读 PRD，执行路径固定为“先结构化 PRD，再检索与精读”；
   - 长任务优先 subagent，单次超时 2 小时。
@@ -50,6 +50,9 @@
 - WSL→Windows 互操作修复（`/etc/wsl.conf` interop）需用户侧复测确认是否生效。
 
 ## 近期重要更新（自动，滚动7天）
+- [2026-03-08][关键决策] 小红书发布阶段若用户端看不到登录窗口，必须切换“有头可见窗口”或提供二维码，不继续停留在无头链路等待。
+- [2026-03-08][关键决策] 固定 profile 的登录判定以“创作者中心关键登录态 cookie”为准；仅有站点 cookie 不视为已登录。
+- [2026-03-08][关键规则] heartbeat poll 无待办时只回 `HEARTBEAT_OK`，禁止夹带论文速览或其他扩展内容。
 - [2026-03-07][关键配置] 浏览器启动策略固定为 PowerShell `wsl -e google-chrome-stable --proxy-server="http://127.0.0.1:7897" --remote-debugging-port=9222 --user-data-dir=/home/re0hg/.config/google-chrome`；默认无头，登录/风控时切有头。
 - [2026-03-07][关键决策] 小红书发布登录职责固定：由 agent 先拉起 Chrome，仅在需要登录/风控时通知用户接管，不再要求用户手动敲启动命令。
 - [2026-03-07][已验证修复] CPA `/v1/chat/completions` 调用已确认需使用 `reasoning_effort`；`reasoning: {"effort": ...}` 为 `/responses` 风格，不应混用。

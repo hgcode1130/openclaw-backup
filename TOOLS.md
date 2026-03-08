@@ -68,10 +68,11 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ### Daily Reflection 执行前检查（新增）
 
-- 先执行：`git -C /root/.openclaw rev-parse --is-inside-work-tree`
+- 先执行：`git -C /home/re0hg/.openclaw/workspace rev-parse --is-inside-work-tree`
+- 备份根路径统一以 `/home/re0hg/.openclaw/workspace` 为准，不再沿用 `/root/.openclaw` 旧路径。
 - 若报 `Permission denied`：直接标记“目标路径不可达，备份失败但继续复盘”，不再执行 add/commit/push。
 - 若报“not a git repository”：标记“非 Git 仓库，备份失败但继续复盘”，不再执行 add/commit/push。
-- 原因与收益：先判定“可达性→仓库性”，避免重复无效命令，减少噪音报错并保证复盘主流程稳定完成。
+- 原因与收益：先判定“可达性→仓库性”，同时统一实际仓库根，避免路径漂移导致的误判与噪音报错。
 
 ### Daily Reflection 复盘证据最小集（新增）
 
@@ -81,5 +82,5 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ### Daily Reflection 备份白名单观察（新增）
 
-- 当前 skill 若直接执行 `git add memory`，会把 `memory/_state/`、`heartbeat-state.json`、archive 重命名等非人工记忆文件一并纳入提交。
+- 当前 skill 若直接执行 `git add memory`，会把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、archive 重命名等非人工记忆文件一并纳入提交。
 - 现阶段先如实记录并允许备份完成；后续若继续优化 skill，应改成更细粒度白名单，降低提交噪音、提升复盘仓库可读性。
