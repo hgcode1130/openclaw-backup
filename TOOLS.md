@@ -82,5 +82,6 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ### Daily Reflection 备份白名单观察（新增）
 
-- 当前 skill 若直接执行 `git add memory`，会把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、archive 重命名等非人工记忆文件一并纳入提交。
-- 现阶段先如实记录并允许备份完成；后续若继续优化 skill，应改成更细粒度白名单，降低提交噪音、提升复盘仓库可读性。
+- 当前 skill 已改为显式枚举 `memory/*.md` 与 `MEMORY.md`/`AGENTS.md`/`TOOLS.md`/`USER.md`/`skills/daily-reflection/SKILL.md`，不再直接 `git add memory`。
+- 这样可避免 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、`memory/archive/` 等自动产物进入提交，显著降低备份噪音。
+- 后续若出现新的人工维护子目录，按需单独加入白名单；不要回退到目录级 add。

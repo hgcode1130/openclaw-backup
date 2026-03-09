@@ -41,7 +41,7 @@
 ## 项目状态（周级快照）
 - OpenClaw 运维：
   - Daily Reflection 已按 `/home/re0hg/.openclaw/workspace` 作为统一 Git 根并补齐“写回记忆后再 commit/push”的闭环；
-  - 当前仍存在 `git add memory` 白名单过宽导致噪音提交的问题（`memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、archive 重命名）。
+  - 2026-03-10 起备份白名单已收紧为显式枚举 `memory/*.md` 与根目录记忆文件，不再把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、archive 重命名等自动产物带入提交。
 - 多图 Unified Model 可控性研究：
   - 已建立机器可读 PRD，执行路径固定为“先结构化 PRD，再检索与精读”；
   - 长任务优先 subagent，单次超时 2 小时。
@@ -56,6 +56,7 @@
 - 固定 profile 下 `headed → headless` 切换后的登录态长期稳定性，需后续发布任务继续观测。
 
 ## 近期重要更新（自动，滚动7天）
+- 2026-03-10｜关键修复：Daily Reflection 备份白名单已改为显式枚举 `memory/*.md` 与根目录记忆文件，避免 `_state/`、heartbeat、weekly、archive 噪音进入提交。
 - 2026-03-09｜关键决策：Heartbeat 轮询在“无待办”场景仅允许回复 `HEARTBEAT_OK`；若再出现扩展执行，按协议偏离处理并优先纠偏。
 - 2026-03-09｜关键策略：论文速览链路在 grok-search 异常（502/403）时可临时降级 arXiv 直查；恢复后应回切 grok-search。（待核对：需再观测 1-2 次任务确认稳定性）
 

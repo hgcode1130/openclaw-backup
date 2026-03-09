@@ -9,8 +9,9 @@
 - [S3|复盘证据最小集] 低会话量场景仍需至少核对 `memory/projects.md`、`memory/lessons.md` 与今昨日日志后再下结论，避免仅凭单条会话做过度推断。
 - [S3|Cron-only 日判定] 若当日主要活动来自定时任务（如 daily-reflection），需额外用 `sessions_list` 交叉确认是否存在遗漏业务会话；确认无后再在简报中明确“无新增业务会话结论”。
 - [S3|日志文件先行] 若 `memory/YYYY-MM-DD.md` 不存在，先创建当日日志文件再写复盘结论，避免结论仅停留在会话输出、未沉淀到记忆层。
-- [S2|Reflection 备份白名单收窄] 现行 daily-reflection 使用 `git add memory` 会把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/` 与 archive 重命名一并纳入提交，造成高噪音备份；后续应改为更细粒度白名单，只提交人工维护记忆文件。
+- [S2|Reflection 备份白名单显式枚举] Daily Reflection 备份必须显式枚举人工维护文件（`memory/*.md` + `MEMORY.md`/`AGENTS.md`/`TOOLS.md`/`USER.md`/`skills/daily-reflection/SKILL.md`），不要直接 `git add memory`；否则会把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/` 与 archive 重命名一并纳入提交，制造高噪音备份。
 - [S2|Reflection 仓库根统一] Daily Reflection 的 Git 检查与备份以 `/home/re0hg/.openclaw/workspace` 为唯一根路径；若继续引用 `/root/.openclaw` 旧路径，会制造错误告警并误判备份状态。
 - [S2|Reflection 写回后要二次备份] 前置备份只能覆盖复盘开始前已存在的改动；若复盘过程中新增/修改了 `memory/YYYY-MM-DD.md`、`memory/lessons.md`、`memory/projects.md`、`MEMORY.md` 或 skill 文件，结束前需再做一次 `status/add/commit/push`，否则当日结论会滞留本地并在次日被“补带”进远程。
 - [S2|Heartbeat 轮询只回执] 遇到 heartbeat poll 且无待处理事项时，只回复 `HEARTBEAT_OK`；不要顺带输出论文速览或其他内容，避免把维护通道误用为内容投递通道。
 - [S2|Linux Browser 故障定位] OpenClaw 在 Linux 上遇到 browser tool 超时时，不要只看“browser control service unreachable”字面；应先区分 18791 控制服务、CDP 18800 与实际 Chromium 启动链。若系统 Chromium 来自 snap，优先参考 `docs/tools/browser-linux-troubleshooting.md`，重点排查 attach-only + 独立 CDP 服务 + profile lock（SingletonLock/Socket）冲突。
+- [S3|Skill 路径先展开 `~/`] 读取 skill 文件时，若 available_skills 的 `location` 以 `~/` 开头，必须先展开到真实 home 路径后再读；不能直接拼接工作区前缀，否则会产生 `ENOENT` 并误判 skill 不存在。
