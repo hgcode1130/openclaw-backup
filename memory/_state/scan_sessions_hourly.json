@@ -1,7 +1,7 @@
 {
   "files": {
     "2096:12743": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772170307.3607562,
       "offset": 34664,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/a1bdc5e8-5afe-4787-b678-b0b52b9a4ed4.jsonl.reset.2026-02-27T12-11-28.493Z",
@@ -9,7 +9,7 @@
       "size": 34664
     },
     "2096:13987": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5255282,
       "offset": 185383,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/d70be0a4-1f08-4ba6-9ee1-d8fa91e0625b.jsonl.reset.2026-02-24T16-39-05.702Z",
@@ -17,7 +17,7 @@
       "size": 185383
     },
     "2096:13988": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772442289.6881216,
       "offset": 96107,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/cfd20a33-a8f6-4270-b2fc-9cb99b0afc27.jsonl.reset.2026-03-02T09-04-50.887Z",
@@ -33,7 +33,7 @@
       "size": 40490
     },
     "2096:14065": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772442371.4781466,
       "offset": 41360,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/cfd20a33-a8f6-4270-b2fc-9cb99b0afc27.jsonl",
@@ -41,7 +41,7 @@
       "size": 41360
     },
     "2096:1672": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772247209.4403884,
       "offset": 539170,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/313da5a8-9635-452c-9a91-c06542fcd091.jsonl.reset.2026-02-28T02-57-34.367Z",
@@ -49,15 +49,23 @@
       "size": 539170
     },
     "2096:1682": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772094210.125877,
       "offset": 432914,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/37b0155f-68ae-4e70-8cf6-15ef4511d157.jsonl.reset.2026-02-26T08-23-41.897Z",
       "session_id": "37b0155f-68ae-4e70-8cf6-15ef4511d157",
       "size": 432914
     },
+    "2096:17302": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1772985921.3103304,
+      "offset": 105497,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/ce68dc58-d355-481a-90df-66488507459f.jsonl",
+      "session_id": "ce68dc58-d355-481a-90df-66488507459f",
+      "size": 105497
+    },
     "2096:17819": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772452169.750636,
       "offset": 862907,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/34c02c41-ad4e-4811-b578-34707b73be91.jsonl.reset.2026-03-02T11-51-04.798Z",
@@ -73,7 +81,7 @@
       "size": 73016
     },
     "2096:2461": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772092185.3845847,
       "offset": 172372,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/d429a605-7de4-48c3-a9a5-b1aff54c17b6.jsonl.reset.2026-02-26T07-52-35.334Z",
@@ -81,7 +89,7 @@
       "size": 172372
     },
     "2096:354559": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772710882.5031497,
       "offset": 76932,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/4a507bd1-f499-40ba-8a37-77990f17ce96.jsonl.reset.2026-03-05T12-51-24.437Z",
@@ -89,7 +97,7 @@
       "size": 76932
     },
     "2096:422936": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5291948,
       "offset": 123078,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/e8b47a07-2375-4bde-b7b1-f86ea3057f8e.jsonl.reset.2026-02-25T06-14-28.593Z",
@@ -97,7 +105,7 @@
       "size": 123078
     },
     "2096:422937": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5291948,
       "offset": 92478,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/e625836c-c236-49c6-b276-15a53ff08018.jsonl.reset.2026-02-24T16-49-24.507Z",
@@ -105,7 +113,7 @@
       "size": 92478
     },
     "2096:422940": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5365283,
       "offset": 1855075,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/0f4207e2-7f8d-477b-b9d6-2e1755aceb3d.jsonl.reset.2026-02-25T08-17-06.925Z",
@@ -113,7 +121,7 @@
       "size": 1855075
     },
     "2096:422944": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.540195,
       "offset": 654106,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/e7301fea-612e-4aa0-8b1e-56db492444b7.jsonl.reset.2026-02-24T16-36-46.596Z",
@@ -121,7 +129,7 @@
       "size": 654106
     },
     "2096:422945": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090776.8699827,
       "offset": 358755,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/845e5b31-9256-4919-b88a-3d165d77e22a.jsonl.reset.2026-02-26T07-26-19.453Z",
@@ -129,7 +137,7 @@
       "size": 358755
     },
     "2096:422947": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5365283,
       "offset": 1023367,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/b87dad23-1096-4ab0-b148-6b98592ad460.jsonl.reset.2026-02-26T05-38-05.978Z",
@@ -137,7 +145,7 @@
       "size": 1023367
     },
     "2096:422949": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5291948,
       "offset": 49889,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/05497c99-5a1c-4d24-b2ce-9fdfd602232e.jsonl.reset.2026-02-25T01-51-25.030Z",
@@ -145,7 +153,7 @@
       "size": 49889
     },
     "2096:422950": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5291948,
       "offset": 47824,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/588318cf-02ef-4a7e-b542-ee75ff03dd3c.jsonl.reset.2026-02-25T08-50-44.849Z",
@@ -153,7 +161,7 @@
       "size": 47824
     },
     "2096:422953": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.540195,
       "offset": 35521,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/1529e7ca-671a-429f-b55f-2ae6eb65de1c.jsonl.reset.2026-02-24T15-36-46.082Z",
@@ -161,7 +169,7 @@
       "size": 35521
     },
     "2096:422954": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090718.5291948,
       "offset": 362954,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/908ea373-6092-42a1-8092-9218e748c735.jsonl.reset.2026-02-25T03-23-29.505Z",
@@ -169,7 +177,7 @@
       "size": 362954
     },
     "2096:422970": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772090247.5248296,
       "offset": 661,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/2daddb8a-ca09-484c-b2b0-1350e4f90dc6.jsonl",
@@ -177,7 +185,7 @@
       "size": 661
     },
     "2096:422975": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772103417.852576,
       "offset": 534843,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/67241d15-7560-45bf-bb26-435c73d5cfe2.jsonl.reset.2026-02-27T05-17-51.651Z",
@@ -185,7 +193,7 @@
       "size": 534843
     },
     "2096:430840": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772672496.2621033,
       "offset": 27751,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/64f28fbb-7412-4c5a-b024-4ceffb173a3d.jsonl",
@@ -193,7 +201,7 @@
       "size": 27751
     },
     "2096:430901": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772338717.5172744,
       "offset": 1583640,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/2b216a6b-e6c0-41a0-a21e-ccfb1f15f61c.jsonl.reset.2026-03-01T04-54-59.496Z",
@@ -201,7 +209,7 @@
       "size": 1583640
     },
     "2096:431407": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772772689.3927953,
       "offset": 196509,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/2b69af3a-c1b4-4f43-aaac-553488662e25.jsonl.reset.2026-03-06T05-21-12.770Z",
@@ -225,7 +233,7 @@
       "size": 88853
     },
     "2096:431442": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772709829.1361291,
       "offset": 331453,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/eec928d4-48b1-48a2-be73-b6530276ec2a.jsonl.reset.2026-03-05T11-26-15.143Z",
@@ -249,7 +257,7 @@
       "size": 222259
     },
     "2096:431478": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772849521.9351437,
       "offset": 18311,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/fa4c91ff-fa25-4130-a6d8-a0f303aa0e3f.jsonl",
@@ -265,7 +273,7 @@
       "size": 27379
     },
     "2096:431484": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772449431.0308146,
       "offset": 411387,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/c1ecddcd-bf00-45b9-be2f-f8fd6bba4ace.jsonl.reset.2026-03-02T11-07-13.559Z",
@@ -273,7 +281,7 @@
       "size": 411387
     },
     "2096:435817": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772380668.0882177,
       "offset": 703830,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/27e0a478-9b80-41e5-9e67-da9239fdfa94.jsonl.reset.2026-03-02T03-26-38.908Z",
@@ -288,8 +296,56 @@
       "session_id": "3624ac4a-e83a-4dd4-a77a-5d1b9ea854fd",
       "size": 30996
     },
+    "2096:442164": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773011090.4506092,
+      "offset": 68502,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/1f97cb03-e0c6-4864-b926-b19b027c0035.jsonl",
+      "session_id": "1f97cb03-e0c6-4864-b926-b19b027c0035",
+      "size": 68502
+    },
+    "2096:442316": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773018052.4818249,
+      "offset": 16331,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/25008f53-4651-4ad4-8f4e-1a9e2fafb26a.jsonl",
+      "session_id": "25008f53-4651-4ad4-8f4e-1a9e2fafb26a",
+      "size": 16331
+    },
+    "2096:442489": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773025382.8444388,
+      "offset": 54861,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/f2a9194c-f07f-4b26-9f2d-33f7562f3558.jsonl",
+      "session_id": "f2a9194c-f07f-4b26-9f2d-33f7562f3558",
+      "size": 54861
+    },
+    "2096:442500": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773039740.4740057,
+      "offset": 39456,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/6b745b47-e416-4b72-b08b-5944f0e1be01.jsonl",
+      "session_id": "6b745b47-e416-4b72-b08b-5944f0e1be01",
+      "size": 39456
+    },
+    "2096:443121": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773054200.797389,
+      "offset": 56378,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/c2606112-4298-46be-8978-07197fcac5cc.jsonl",
+      "session_id": "c2606112-4298-46be-8978-07197fcac5cc",
+      "size": 56378
+    },
+    "2096:443248": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773068446.7236748,
+      "offset": 7806,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/876af5df-8b9c-435c-9b79-7759f044f0cc.jsonl",
+      "session_id": "876af5df-8b9c-435c-9b79-7759f044f0cc",
+      "size": 7806
+    },
     "2096:49789": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772194757.8831837,
       "offset": 32213,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/9657712c-dfd7-42fa-9086-2d5433d74767.jsonl.reset.2026-02-27T12-27-31.005Z",
@@ -297,7 +353,7 @@
       "size": 32213
     },
     "2096:599548": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772862717.4366114,
       "offset": 187299,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/20a27a2b-61a7-4af5-8280-c918f027be1b.jsonl.reset.2026-03-07T05-53-47.380Z",
@@ -305,7 +361,7 @@
       "size": 187299
     },
     "2096:791493": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772783943.2629054,
       "offset": 696604,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/59971e08-4003-42f4-acfe-eb88514fad70.jsonl.reset.2026-03-06T09-12-15.854Z",
@@ -313,7 +369,7 @@
       "size": 696604
     },
     "2096:791495": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772778004.8126407,
       "offset": 243561,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/37c76d87-7535-4e85-bed6-aba9faa955a9.jsonl.reset.2026-03-06T06-42-54.525Z",
@@ -321,7 +377,7 @@
       "size": 243561
     },
     "2096:791496": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772780084.4306552,
       "offset": 6607293,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/ec7fd8b8-87b1-40b5-b06d-61adfb03554b.jsonl.reset.2026-03-06T09-25-31.687Z",
@@ -337,7 +393,7 @@
       "size": 641992
     },
     "2096:961271": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772790275.8222218,
       "offset": 134346,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/4c298c68-cec5-4ccd-a2fe-10289e5e4c30.jsonl.reset.2026-03-06T09-44-51.194Z",
@@ -353,7 +409,7 @@
       "size": 38184
     },
     "2096:961280": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772789270.3006387,
       "offset": 53730,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/018c737f-29e5-4552-8938-efa23b19e6a1.jsonl.reset.2026-03-06T09-35-08.827Z",
@@ -369,15 +425,15 @@
       "size": 37451
     },
     "2096:961291": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
-      "mtime": 1772965300.2802474,
-      "offset": 1674140,
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773061474.5760877,
+      "offset": 1714195,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/3178647b-7ea7-4a56-a51f-4d826a313435.jsonl",
       "session_id": "3178647b-7ea7-4a56-a51f-4d826a313435",
-      "size": 1674140
+      "size": 1714195
     },
     "2096:961310": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772791641.0155163,
       "offset": 209447,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/0ad6cc15-525e-4fa2-8471-f2b338473fa9.jsonl.reset.2026-03-07T04-44-58.194Z",
@@ -417,12 +473,20 @@
       "size": 64237
     },
     "2096:969377": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T15:00:46+00:00",
       "mtime": 1772863881.6507897,
       "offset": 65338,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/0cd6c3f3-3ab2-40e8-932b-42abf0e76d4b.jsonl",
       "session_id": "0cd6c3f3-3ab2-40e8-932b-42abf0e76d4b",
       "size": 65338
+    },
+    "2096:969425": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1773054214.7800007,
+      "offset": 17371,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/25ff338e-253c-415d-ae0d-c760b66d7254.jsonl",
+      "session_id": "25ff338e-253c-415d-ae0d-c760b66d7254",
+      "size": 17371
     },
     "2096:969912": {
       "last_seen": "2026-03-08T11:00:26+00:00",
@@ -439,6 +503,14 @@
       "path": "/home/re0hg/.openclaw/agents/main/sessions/d97b8f9e-abdf-49ae-9120-a23f7927a18f.jsonl",
       "session_id": "d97b8f9e-abdf-49ae-9120-a23f7927a18f",
       "size": 4993
+    },
+    "2096:970224": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1772984332.8438916,
+      "offset": 74384,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/58638bb2-6a3b-48d8-a669-02ef7aaa314b.jsonl",
+      "session_id": "58638bb2-6a3b-48d8-a669-02ef7aaa314b",
+      "size": 74384
     },
     "2096:970235": {
       "last_seen": "2026-03-08T15:00:42+00:00",
@@ -457,7 +529,7 @@
       "size": 330255
     },
     "2096:970373": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-08T23:04:20+00:00",
       "mtime": 1772924538.0391002,
       "offset": 28404,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/ac79f38c-b670-4266-930f-14c6998dce57.jsonl",
@@ -465,7 +537,7 @@
       "size": 28404
     },
     "2096:971119": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T03:00:20+00:00",
       "mtime": 1772939037.3381288,
       "offset": 59763,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/21296b34-b63d-4368-8443-8792c6709cf7.jsonl",
@@ -473,7 +545,7 @@
       "size": 59763
     },
     "2096:971161": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-08T23:04:20+00:00",
       "mtime": 1772931652.901241,
       "offset": 23930,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/c3ceb6b5-1f6f-40fa-9e61-3d6c73b63f9d.jsonl",
@@ -481,7 +553,7 @@
       "size": 23930
     },
     "2096:971304": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T07:00:30+00:00",
       "mtime": 1772953260.9248912,
       "offset": 4968,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/0beac2f2-6ebb-4a35-8301-5743c26fb87b.jsonl",
@@ -489,7 +561,7 @@
       "size": 4968
     },
     "2096:971819": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
+      "last_seen": "2026-03-09T11:01:06+00:00",
       "mtime": 1772967785.2422624,
       "offset": 67262,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/15656f07-24c9-49e0-8f4c-3a9bfe59c4f5.jsonl",
@@ -497,12 +569,20 @@
       "size": 67262
     },
     "2096:972130": {
-      "last_seen": "2026-03-08T15:00:42+00:00",
-      "mtime": 1772982041.8871725,
-      "offset": 22472,
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1772982074.3681297,
+      "offset": 24321,
       "path": "/home/re0hg/.openclaw/agents/main/sessions/0971a9df-aa82-459f-a3f0-c2716dea7bd6.jsonl",
       "session_id": "0971a9df-aa82-459f-a3f0-c2716dea7bd6",
-      "size": 22472
+      "size": 24321
+    },
+    "2096:972456": {
+      "last_seen": "2026-03-09T15:00:46+00:00",
+      "mtime": 1772987181.3762825,
+      "offset": 75760,
+      "path": "/home/re0hg/.openclaw/agents/main/sessions/6462c683-cf75-49a7-9119-3c8078236807.jsonl",
+      "session_id": "6462c683-cf75-49a7-9119-3c8078236807",
+      "size": 75760
     }
   },
   "session_flags": {
@@ -542,11 +622,20 @@
     "15bef1c1-7035-4081-8df3-5a26844a8162": {
       "is_cron_session": false
     },
+    "1f97cb03-e0c6-4864-b926-b19b027c0035": {
+      "is_cron_session": true
+    },
     "20a27a2b-61a7-4af5-8280-c918f027be1b": {
       "is_cron_session": false
     },
     "21296b34-b63d-4368-8443-8792c6709cf7": {
       "is_cron_session": true
+    },
+    "25008f53-4651-4ad4-8f4e-1a9e2fafb26a": {
+      "is_cron_session": true
+    },
+    "25ff338e-253c-415d-ae0d-c760b66d7254": {
+      "is_cron_session": false
     },
     "27e0a478-9b80-41e5-9e67-da9239fdfa94": {
       "is_cron_session": false
@@ -599,17 +688,26 @@
     "5699839c-ea4d-4332-8c54-184f4a6db380": {
       "is_cron_session": true
     },
+    "58638bb2-6a3b-48d8-a669-02ef7aaa314b": {
+      "is_cron_session": true
+    },
     "588318cf-02ef-4a7e-b542-ee75ff03dd3c": {
       "is_cron_session": false
     },
     "59971e08-4003-42f4-acfe-eb88514fad70": {
       "is_cron_session": false
     },
+    "6462c683-cf75-49a7-9119-3c8078236807": {
+      "is_cron_session": true
+    },
     "64f28fbb-7412-4c5a-b024-4ceffb173a3d": {
       "is_cron_session": false
     },
     "67241d15-7560-45bf-bb26-435c73d5cfe2": {
       "is_cron_session": false
+    },
+    "6b745b47-e416-4b72-b08b-5944f0e1be01": {
+      "is_cron_session": true
     },
     "774d30d2-d68f-4381-9b1d-8ff59bae58da": {
       "is_cron_session": true
@@ -622,6 +720,9 @@
     },
     "845e5b31-9256-4919-b88a-3d165d77e22a": {
       "is_cron_session": false
+    },
+    "876af5df-8b9c-435c-9b79-7759f044f0cc": {
+      "is_cron_session": true
     },
     "908ea373-6092-42a1-8092-9218e748c735": {
       "is_cron_session": false
@@ -641,10 +742,16 @@
     "c1ecddcd-bf00-45b9-be2f-f8fd6bba4ace": {
       "is_cron_session": false
     },
+    "c2606112-4298-46be-8978-07197fcac5cc": {
+      "is_cron_session": true
+    },
     "c3ceb6b5-1f6f-40fa-9e61-3d6c73b63f9d": {
       "is_cron_session": true
     },
     "c9994a12-f692-49a4-8de9-47a0513dd9d6": {
+      "is_cron_session": true
+    },
+    "ce68dc58-d355-481a-90df-66488507459f": {
       "is_cron_session": true
     },
     "cfd20a33-a8f6-4270-b2fc-9cb99b0afc27": {
@@ -683,6 +790,9 @@
     "ef48ce15-8dde-4189-8b43-23569fcdabb0": {
       "is_cron_session": true
     },
+    "f2a9194c-f07f-4b26-9f2d-33f7562f3558": {
+      "is_cron_session": true
+    },
     "fa4c91ff-fa25-4130-a6d8-a0f303aa0e3f": {
       "is_cron_session": false
     },
@@ -693,7 +803,7 @@
   "session_offsets": {
     "018c737f-29e5-4552-8938-efa23b19e6a1": 53730,
     "05497c99-5a1c-4d24-b2ce-9fdfd602232e": 49889,
-    "0971a9df-aa82-459f-a3f0-c2716dea7bd6": 22472,
+    "0971a9df-aa82-459f-a3f0-c2716dea7bd6": 24321,
     "0ad6cc15-525e-4fa2-8471-f2b338473fa9": 209447,
     "0beac2f2-6ebb-4a35-8301-5743c26fb87b": 4968,
     "0cd6c3f3-3ab2-40e8-932b-42abf0e76d4b": 65338,
@@ -703,14 +813,17 @@
     "1529e7ca-671a-429f-b55f-2ae6eb65de1c": 35521,
     "15656f07-24c9-49e0-8f4c-3a9bfe59c4f5": 67262,
     "15bef1c1-7035-4081-8df3-5a26844a8162": 261920,
+    "1f97cb03-e0c6-4864-b926-b19b027c0035": 68502,
     "20a27a2b-61a7-4af5-8280-c918f027be1b": 187299,
     "21296b34-b63d-4368-8443-8792c6709cf7": 59763,
+    "25008f53-4651-4ad4-8f4e-1a9e2fafb26a": 16331,
+    "25ff338e-253c-415d-ae0d-c760b66d7254": 17371,
     "27e0a478-9b80-41e5-9e67-da9239fdfa94": 703830,
     "2b216a6b-e6c0-41a0-a21e-ccfb1f15f61c": 1583640,
     "2b69af3a-c1b4-4f43-aaac-553488662e25": 196509,
     "2daddb8a-ca09-484c-b2b0-1350e4f90dc6": 661,
     "313da5a8-9635-452c-9a91-c06542fcd091": 539170,
-    "3178647b-7ea7-4a56-a51f-4d826a313435": 1674140,
+    "3178647b-7ea7-4a56-a51f-4d826a313435": 1714195,
     "34c02c41-ad4e-4811-b578-34707b73be91": 862907,
     "3624ac4a-e83a-4dd4-a77a-5d1b9ea854fd": 30996,
     "37b0155f-68ae-4e70-8cf6-15ef4511d157": 432914,
@@ -723,22 +836,28 @@
     "4dc590e5-d09f-454f-9adc-7ba866755376": 64237,
     "532eaacf-e678-4829-99a3-6d92062f646e": 88853,
     "5699839c-ea4d-4332-8c54-184f4a6db380": 37451,
+    "58638bb2-6a3b-48d8-a669-02ef7aaa314b": 74384,
     "588318cf-02ef-4a7e-b542-ee75ff03dd3c": 47824,
     "59971e08-4003-42f4-acfe-eb88514fad70": 696604,
+    "6462c683-cf75-49a7-9119-3c8078236807": 75760,
     "64f28fbb-7412-4c5a-b024-4ceffb173a3d": 27751,
     "67241d15-7560-45bf-bb26-435c73d5cfe2": 534843,
+    "6b745b47-e416-4b72-b08b-5944f0e1be01": 39456,
     "774d30d2-d68f-4381-9b1d-8ff59bae58da": 641992,
     "7cd80f04-4a40-400b-981e-85b97e4de30c": 330255,
     "7fe573bb-2948-4dec-bc6b-b75606d2b1dc": 230752,
     "845e5b31-9256-4919-b88a-3d165d77e22a": 358755,
+    "876af5df-8b9c-435c-9b79-7759f044f0cc": 7806,
     "908ea373-6092-42a1-8092-9218e748c735": 362954,
     "9657712c-dfd7-42fa-9086-2d5433d74767": 32213,
     "a1bdc5e8-5afe-4787-b678-b0b52b9a4ed4": 34664,
     "ac79f38c-b670-4266-930f-14c6998dce57": 28404,
     "b87dad23-1096-4ab0-b148-6b98592ad460": 1023367,
     "c1ecddcd-bf00-45b9-be2f-f8fd6bba4ace": 411387,
+    "c2606112-4298-46be-8978-07197fcac5cc": 56378,
     "c3ceb6b5-1f6f-40fa-9e61-3d6c73b63f9d": 23930,
     "c9994a12-f692-49a4-8de9-47a0513dd9d6": 73016,
+    "ce68dc58-d355-481a-90df-66488507459f": 105497,
     "cfd20a33-a8f6-4270-b2fc-9cb99b0afc27": 96107,
     "d429a605-7de4-48c3-a9a5-b1aff54c17b6": 172372,
     "d70be0a4-1f08-4ba6-9ee1-d8fa91e0625b": 185383,
@@ -751,9 +870,10 @@
     "ec7fd8b8-87b1-40b5-b06d-61adfb03554b": 6607293,
     "eec928d4-48b1-48a2-be73-b6530276ec2a": 331453,
     "ef48ce15-8dde-4189-8b43-23569fcdabb0": 38184,
+    "f2a9194c-f07f-4b26-9f2d-33f7562f3558": 54861,
     "fa4c91ff-fa25-4130-a6d8-a0f303aa0e3f": 18311,
     "fb27a79b-d586-4f46-8d01-1275ab293d56": 36294
   },
-  "updated_at": "2026-03-08T15:00:42+00:00",
+  "updated_at": "2026-03-09T15:00:46+00:00",
   "version": 1
 }
