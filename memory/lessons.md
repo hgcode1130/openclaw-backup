@@ -15,3 +15,5 @@
 - [S2|Heartbeat 轮询只回执] 遇到 heartbeat poll 且无待处理事项时，只回复 `HEARTBEAT_OK`；不要顺带输出论文速览或其他内容，避免把维护通道误用为内容投递通道。
 - [S2|Linux Browser 故障定位] OpenClaw 在 Linux 上遇到 browser tool 超时时，不要只看“browser control service unreachable”字面；应先区分 18791 控制服务、CDP 18800 与实际 Chromium 启动链。若系统 Chromium 来自 snap，优先参考 `docs/tools/browser-linux-troubleshooting.md`，重点排查 attach-only + 独立 CDP 服务 + profile lock（SingletonLock/Socket）冲突。
 - [S3|Skill 路径先展开 `~/`] 读取 skill 文件时，若 available_skills 的 `location` 以 `~/` 开头，必须先展开到真实 home 路径后再读；不能直接拼接工作区前缀，否则会产生 `ENOENT` 并误判 skill 不存在。
+- [S2|Cron 任务必须闭环] 定时/cron 触发的任务不能只回复“收到/确认”，必须在同一轮完成完整流程并输出简报，否则会导致任务延期并需人工纠正。
+- [S3|简单核对优先主会话工具] 类似 sessions_list 的低成本核对应优先在主会话直接调用，避免为简单检查派子代理造成额外等待与上下文噪音。
