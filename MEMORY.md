@@ -56,6 +56,7 @@
 - 固定 profile 下 `headed → headless` 切换后的登录态长期稳定性，需后续发布任务继续观测。
 
 ## 近期重要更新（自动，滚动7天）
+- 2026-03-11｜关键决策（待核对）：MLLM 论文跟进优先从 InternVL-U、CourtSI、MissBench、VLM-Loc 中选 2-3 篇做深读，深读后再固化为长期结论。
 - 2026-03-10｜关键修复：Daily Reflection 备份白名单已改为显式枚举 `memory/*.md` 与根目录记忆文件，避免 `_state/`、heartbeat、weekly、archive 噪音进入提交。
 - 2026-03-09｜关键决策：Heartbeat 轮询在“无待办”场景仅允许回复 `HEARTBEAT_OK`；若再出现扩展执行，按协议偏离处理并优先纠偏。
 - 2026-03-09｜关键策略：论文速览链路在 grok-search 异常（502/403）时可临时降级 arXiv 直查；恢复后应回切 grok-search。（待核对：需再观测 1-2 次任务确认稳定性）
