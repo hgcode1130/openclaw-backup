@@ -66,7 +66,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 先在隔离环境验证，再进主工作流。
 - 默认只“推荐和评估”技能，不自动安装第三方技能。
 
-### Daily Reflection 执行前检查（新增）
+### Daily Reflection 执行前检查
 
 - 先执行：`git -C /home/re0hg/.openclaw/workspace rev-parse --is-inside-work-tree`
 - 备份根路径统一以 `/home/re0hg/.openclaw/workspace` 为准，不再沿用 `/root/.openclaw` 旧路径。
@@ -74,13 +74,13 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 若报“not a git repository”：标记“非 Git 仓库，备份失败但继续复盘”，不再执行 add/commit/push。
 - 原因与收益：先判定“可达性→仓库性”，同时统一实际仓库根，避免路径漂移导致的误判与噪音报错。
 
-### Daily Reflection 复盘证据最小集（新增）
+### Daily Reflection 复盘证据最小集
 
 - 至少同时核对：`memory/projects.md`、`memory/lessons.md`、`memory/今天.md`、`memory/昨天.md`。
 - 若当日会话很少，额外以 `sessions_list` 确认“是否存在遗漏会话”。
 - 输出问题项时必须给“现象-影响-改法”三段证据链，避免泛化结论。
 
-### Daily Reflection 备份白名单观察（新增）
+### Daily Reflection 备份白名单观察
 
 - 当前 skill 已改为显式枚举 `memory/*.md` 与 `MEMORY.md`/`AGENTS.md`/`TOOLS.md`/`USER.md`/`skills/daily-reflection/SKILL.md`，不再直接 `git add memory`。
 - 这样可避免 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、`memory/archive/` 等自动产物进入提交，显著降低备份噪音。
