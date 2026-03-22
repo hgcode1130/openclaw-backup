@@ -45,6 +45,7 @@
 - 多图 Unified Model 可控性研究：
   - 已建立机器可读 PRD，执行路径固定为“先结构化 PRD，再检索与精读”；
   - 长任务优先 subagent，单次超时 2 小时。
+  - 2026-03-21 论文速览新增深读候选（待用户确认）：Do VLMs Need Vision Transformers?、MultihopSpatial、Perceptio。
 - Ralph Loop Skill 化：
   - 已采用无脚本轻量版（SKILL + references）作为默认试跑形态，待闭环验证后再决定自动化。
 - 小红书运营：
@@ -56,5 +57,5 @@
 - 固定 profile 下 `headed → headless` 切换后的登录态长期稳定性，需后续发布任务继续观测。
 
 ## 近期重要更新（自动，滚动7天）
+- 2026-03-22｜流程决策：daily 增量扫描在无新增 user+assistant 业务对话时，不强行写入新长期记忆，仅保留低活动日结论并持续观察噪声信号（待核对）。
 - 2026-03-21｜关键待核对：Heartbeat 链路在“无新增论文”场景出现过自然语言回复；后续继续以仅 `HEARTBEAT_OK` 为准，并排查触发条件。
-- 2026-03-21｜关键决策（待核对）：本轮 MLLM 深读候选优先级为 SSM 视觉编码器替代（Do VLMs Need Vision Transformers?）、多跳空间推理（MultihopSpatial）、显式空间 token 增强（Perceptio）。
