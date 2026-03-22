@@ -8,6 +8,7 @@
 - [S3|低活动日复盘口径] 当日除定时复盘外无关键业务会话时，需在日志与简报中明确标注“无新增业务会话结论”，避免误导为遗漏分析。
 - [S3|复盘证据最小集] 低会话量场景仍需至少核对 `memory/projects.md`、`memory/lessons.md` 与今昨日日志后再下结论，避免仅凭单条会话做过度推断。
 - [S3|Cron-only 日判定] 若当日主要活动来自定时任务（如 daily-reflection），需额外用 `sessions_list` 交叉确认是否存在遗漏业务会话；确认无后再在简报中明确“无新增业务会话结论”。
+- [S3|低活动日会话核验落盘] 低活动日执行 sessions_list 交叉核验后，应把“已核验无新增会话”的结论写入当日日志，避免口径漂移。
 - [S3|日志文件先行] 若 `memory/YYYY-MM-DD.md` 不存在，先创建当日日志文件再写复盘结论，避免结论仅停留在会话输出、未沉淀到记忆层。
 - [S2|Reflection 备份白名单显式枚举] Daily Reflection 备份必须显式枚举人工维护文件（`memory/*.md` + `MEMORY.md`/`AGENTS.md`/`TOOLS.md`/`USER.md`/`skills/daily-reflection/SKILL.md`），不要直接 `git add memory`；否则会把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/` 与 archive 重命名一并纳入提交，制造高噪音备份。
 - [S2|Reflection 仓库根统一] Daily Reflection 的 Git 检查与备份以 `/home/re0hg/.openclaw/workspace` 为唯一根路径；若继续引用 `/root/.openclaw` 旧路径，会制造错误告警并误判备份状态。
