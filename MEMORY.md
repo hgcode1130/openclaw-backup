@@ -33,6 +33,7 @@
 - Daily Reflection 采用“前置备份 + 写回后二次备份”闭环；否则当日新增的日志/教训/规则可能只留在本地、要到次日才被补带进远程。
 - Cron-only/低活动日复盘：
   - 除证据最小集（`projects.md`、`lessons.md`、今昨日日志）外，必须用 `sessions_list` 交叉确认无遗漏会话。
+  - 若无新增 user+assistant 业务对话，不强行写入新长期记忆，仅沉淀低活动日结论并持续观察噪声信号。
 - 日志落盘规则：
   - 若 `memory/YYYY-MM-DD.md` 不存在，先创建文件再写结论。
 - WSL↔Windows 互操作排障：
@@ -41,7 +42,8 @@
 ## 项目状态（周级快照）
 - OpenClaw 运维：
   - Daily Reflection 已按 `/home/re0hg/.openclaw/workspace` 作为统一 Git 根并补齐“写回记忆后再 commit/push”的闭环；
-  - 2026-03-10 起备份白名单已收紧为显式枚举 `memory/*.md` 与根目录记忆文件，不再把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、archive 重命名等自动产物带入提交。
+  - 2026-03-10 起备份白名单已收紧为显式枚举 `memory/*.md` 与根目录记忆文件，不再把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/`、archive 重命名等自动产物带入提交；
+  - 低活动日治理策略已固化到运维流程（无新增业务对话时不新增长期记忆）。
 - 多图 Unified Model 可控性研究：
   - 已建立机器可读 PRD，执行路径固定为“先结构化 PRD，再检索与精读”；
   - 长任务优先 subagent，单次超时 2 小时。
@@ -57,5 +59,6 @@
 - 固定 profile 下 `headed → headless` 切换后的登录态长期稳定性，需后续发布任务继续观测。
 
 ## 近期重要更新（自动，滚动7天）
-- 2026-03-22｜流程决策：daily 增量扫描在无新增 user+assistant 业务对话时，不强行写入新长期记忆，仅保留低活动日结论并持续观察噪声信号（待核对）。
+- 2026-03-24｜关键决策（待核对）：Heartbeat 任务在“无新增论文”场景再次出现自然语言回复；继续执行“无待办仅 `HEARTBEAT_OK`”并排查触发条件。
+- 2026-03-23｜关键决策（待核对）：日级蒸馏在无新增 user+assistant 业务回复时不新增长期记忆，仅更新当日日志并持续观察增量噪声。
 - 2026-03-21｜关键待核对：Heartbeat 链路在“无新增论文”场景出现过自然语言回复；后续继续以仅 `HEARTBEAT_OK` 为准，并排查触发条件。
