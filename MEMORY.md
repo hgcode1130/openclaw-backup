@@ -59,6 +59,7 @@
 - 固定 profile 下 `headed → headless` 切换后的登录态长期稳定性，需后续发布任务继续观测。
 
 ## 近期重要更新（自动，滚动7天）
+- 2026-03-27｜关键决策（待核对）：Heartbeat 轮询在“无待办”场景再次偏离协议并输出扩展论文清单；继续严格执行仅 `HEARTBEAT_OK` 并追踪触发条件。
 - 2026-03-26｜关键决策（待核对）：MLLM 论文雷达本轮深读优先暂定 TAG、Memory-Augmented VLM Agents、RVLM；其余候选先留在近期选题池并待二次筛选。
 - 2026-03-25｜关键决策（待核对）：MLLM 论文雷达本轮深读优先暂定 TrajSeg、GeoTikzBridge、VISion On Request；后续以精读结果再收敛。
 - 2026-03-24｜关键决策（待核对）：Heartbeat 任务在“无新增论文”场景再次出现自然语言回复；继续执行“无待办仅 `HEARTBEAT_OK`”并排查触发条件。
