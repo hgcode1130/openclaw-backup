@@ -11,6 +11,7 @@
 - [S3|低活动日会话核验落盘] 低活动日执行 sessions_list 交叉核验后，应把“已核验无新增会话”的结论写入当日日志，避免口径漂移。
 - [S3|低活动日先建当日日志] 进入新一天的定时复盘若发现当日日志缺失，应先创建再写结论，避免结论只存在于输出。
 - [S3|日志文件先行] 若 `memory/YYYY-MM-DD.md` 不存在，先创建当日日志文件再写复盘结论，避免结论仅停留在会话输出、未沉淀到记忆层。
+- [S3|创建空文件易误用] write 工具对空 content 会报错；创建当日日志时直接写入首条结论以避免失败。
 - [S2|Reflection 备份白名单显式枚举] Daily Reflection 备份必须显式枚举人工维护文件（`memory/*.md` + `MEMORY.md`/`AGENTS.md`/`TOOLS.md`/`USER.md`/`skills/daily-reflection/SKILL.md`），不要直接 `git add memory`；否则会把 `memory/_state/`、`heartbeat-state.json`、`memory/weekly/` 与 archive 重命名一并纳入提交，制造高噪音备份。
 - [S2|Reflection 仓库根统一] Daily Reflection 的 Git 检查与备份以 `/home/re0hg/.openclaw/workspace` 为唯一根路径；若继续引用 `/root/.openclaw` 旧路径，会制造错误告警并误判备份状态。
 - [S2|Reflection 写回后要二次备份] 前置备份只能覆盖复盘开始前已存在的改动；若复盘过程中新增/修改了 `memory/YYYY-MM-DD.md`、`memory/lessons.md`、`memory/projects.md`、`MEMORY.md` 或 skill 文件，结束前需再做一次 `status/add/commit/push`，否则当日结论会滞留本地并在次日被“补带”进远程。
