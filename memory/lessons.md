@@ -20,3 +20,4 @@
 - [S3|Skill 路径先展开 `~/`] 读取 skill 文件时，若 available_skills 的 `location` 以 `~/` 开头，必须先展开到真实 home 路径后再读；不能直接拼接工作区前缀，否则会产生 `ENOENT` 并误判 skill 不存在。
 - [S2|Cron 任务必须闭环] 定时/cron 触发的任务不能只回复“收到/确认”，必须在同一轮完成完整流程并输出简报，否则会导致任务延期并需人工纠正。
 - [S3|简单核对优先主会话工具] 类似 sessions_list 的低成本核对应优先在主会话直接调用，避免为简单检查派子代理造成额外等待与上下文噪音。
+- [S3|arXiv 取数链路降级] grok-search 波动或 https 直连 arxiv.org 触发 SSL_ERROR_SYSCALL 时，优先改用 export.arxiv.org API 或 curl --http1.1 直取摘要，避免卡在 TLS 层。
