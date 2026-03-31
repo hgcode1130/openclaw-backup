@@ -15,7 +15,7 @@
 - 配置修改后的重启门禁（硬规则）：先执行 `openclaw doctor --non-interactive`，无阻塞错误后才允许重启。
 - Windows 远控/运维场景（尤其 RustDesk）优先使用目标程序原生 CLI，避免依赖脆弱的 GUI 探测与跨壳引号拼接。
 - 浏览器使用策略（WSL2/Windows 互操作）：优先从 PowerShell 通过 `wsl -e google-chrome-stable --proxy-server="http://127.0.0.1:7897" --remote-debugging-port=9222 --user-data-dir=/home/re0hg/.config/google-chrome` 启动 Chrome（固定 profile，不使用 `$HOME`）；默认无头，登录/风控时切有头，由 agent 先拉起后再通知用户接手。
-- Heartbeat 轮询协议：无待办时仅回复 `HEARTBEAT_OK`，不夹带扩展内容。
+- Heartbeat 轮询协议：仅从 `/home/re0hg/.openclaw/workspace/HEARTBEAT.md` 读取待办（区分大小写，不读 `docs/heartbeat.md`）；无待办时仅回复 `HEARTBEAT_OK`，不夹带扩展内容。
 - 小红书发布登录门禁：若用户端看不到登录窗口，必须立即切换有头可见窗口或二维码方案；仅有站点 cookie 不视为已登录，需以创作者中心关键登录态 cookie 为准。
 
 ## 关键配置（长期）
